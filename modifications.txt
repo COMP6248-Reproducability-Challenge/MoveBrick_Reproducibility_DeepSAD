@@ -1,0 +1,7 @@
+modifications in src/main.py(with a label "#TODO" to locate the modification place): 
+add a for-loop
+add some chinese annotations
+
+modifications in src/baseline_ssad.py(with a label "#TODO" to locate the modification place):
+add a for-loop
+change the experiment device from "cpu" to "cuda"
