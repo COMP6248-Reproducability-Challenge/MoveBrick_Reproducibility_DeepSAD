@@ -1,0 +1,660 @@
+2021-05-01 10:07:09,267 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 10:07:09,268 - root - INFO - Data path is ../data.
+2021-05-01 10:07:09,268 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 10:07:09,268 - root - INFO - Dataset: mnist
+2021-05-01 10:07:09,268 - root - INFO - Normal class: 0
+2021-05-01 10:07:09,268 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 10:07:09,268 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 10:07:09,268 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 10:07:09,269 - root - INFO - Known anomaly class: 6
+2021-05-01 10:07:09,269 - root - INFO - SSAD kernel: rbf
+2021-05-01 10:07:09,269 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 10:07:09,269 - root - INFO - Hybrid model: False
+2021-05-01 10:07:09,271 - root - INFO - Set seed to 1.
+2021-05-01 10:07:09,272 - root - INFO - Computation device: cuda
+2021-05-01 10:07:09,272 - root - INFO - Number of dataloader workers: 0
+2021-05-01 10:07:11,214 - root - INFO - Starting training...
+2021-05-01 10:07:40,067 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 27.161s | Val AUC: 87.47 |
+2021-05-01 10:08:06,933 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 25.599s | Val AUC: 88.91 |
+2021-05-01 10:08:31,282 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 23.043s | Val AUC: 87.83 |
+2021-05-01 10:08:55,274 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 22.675s | Val AUC: 88.39 |
+2021-05-01 10:09:26,689 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 29.156s | Val AUC: 88.24 |
+2021-05-01 10:09:45,675 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 15.839s | Val AUC: 83.62 |
+2021-05-01 10:10:02,672 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 14.118s | Val AUC: 81.69 |
+2021-05-01 10:10:23,819 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.565s | Val AUC: 80.77 |
+2021-05-01 10:10:46,741 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 15.922s | Val AUC: 64.91 |
+2021-05-01 10:11:10,245 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 16.974s | Val AUC: 45.53 |
+2021-05-01 10:11:10,249 - root - INFO - Best Model: | Gamma: 0.01562500 | AUC: 88.91
+2021-05-01 10:11:10,249 - root - INFO - Training Time: 25.599s
+2021-05-01 10:11:10,249 - root - INFO - Finished training.
+2021-05-01 10:11:11,289 - root - INFO - Starting testing...
+2021-05-01 10:11:12,921 - root - INFO - Test AUC: 89.10%
+2021-05-01 10:11:12,921 - root - INFO - Test Time: 1.620s
+2021-05-01 10:11:12,923 - root - INFO - Finished testing.
+2021-05-01 10:11:13,401 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 10:11:13,402 - root - INFO - Data path is ../data.
+2021-05-01 10:11:13,403 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 10:11:13,403 - root - INFO - Dataset: mnist
+2021-05-01 10:11:13,404 - root - INFO - Normal class: 0
+2021-05-01 10:11:13,404 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 10:11:13,405 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 10:11:13,406 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 10:11:13,406 - root - INFO - Known anomaly class: 3
+2021-05-01 10:11:13,407 - root - INFO - SSAD kernel: rbf
+2021-05-01 10:11:13,407 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 10:11:13,408 - root - INFO - Hybrid model: False
+2021-05-01 10:11:13,409 - root - INFO - Set seed to 2.
+2021-05-01 10:11:13,409 - root - INFO - Computation device: cuda
+2021-05-01 10:11:13,409 - root - INFO - Number of dataloader workers: 0
+2021-05-01 10:11:14,219 - root - INFO - Starting training...
+2021-05-01 10:11:56,065 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 38.433s | Val AUC: 91.91 |
+2021-05-01 10:12:39,363 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 41.074s | Val AUC: 93.19 |
+2021-05-01 10:13:14,179 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 33.204s | Val AUC: 92.35 |
+2021-05-01 10:13:49,013 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 32.427s | Val AUC: 90.50 |
+2021-05-01 10:14:24,069 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 32.241s | Val AUC: 88.66 |
+2021-05-01 10:14:40,341 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 13.792s | Val AUC: 83.23 |
+2021-05-01 10:15:01,057 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 17.456s | Val AUC: 80.12 |
+2021-05-01 10:15:18,552 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 11.949s | Val AUC: 79.05 |
+2021-05-01 10:15:36,889 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 11.928s | Val AUC: 63.70 |
+2021-05-01 10:15:57,686 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.120s | Val AUC: 45.81 |
+2021-05-01 10:15:57,690 - root - INFO - Best Model: | Gamma: 0.01562500 | AUC: 93.19
+2021-05-01 10:15:57,691 - root - INFO - Training Time: 41.074s
+2021-05-01 10:15:57,692 - root - INFO - Finished training.
+2021-05-01 10:15:58,635 - root - INFO - Starting testing...
+2021-05-01 10:15:59,527 - root - INFO - Test AUC: 91.96%
+2021-05-01 10:15:59,528 - root - INFO - Test Time: 0.795s
+2021-05-01 10:15:59,536 - root - INFO - Finished testing.
+2021-05-01 10:16:00,048 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 10:16:00,049 - root - INFO - Data path is ../data.
+2021-05-01 10:16:00,052 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 10:16:00,058 - root - INFO - Dataset: mnist
+2021-05-01 10:16:00,059 - root - INFO - Normal class: 1
+2021-05-01 10:16:00,060 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 10:16:00,060 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 10:16:00,061 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 10:16:00,061 - root - INFO - Known anomaly class: 0
+2021-05-01 10:16:00,062 - root - INFO - SSAD kernel: rbf
+2021-05-01 10:16:00,063 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 10:16:00,063 - root - INFO - Hybrid model: False
+2021-05-01 10:16:00,065 - root - INFO - Set seed to 3.
+2021-05-01 10:16:00,065 - root - INFO - Computation device: cuda
+2021-05-01 10:16:00,066 - root - INFO - Number of dataloader workers: 0
+2021-05-01 10:16:01,160 - root - INFO - Starting training...
+2021-05-01 10:17:07,602 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 63.894s | Val AUC: 76.75 |
+2021-05-01 10:18:23,022 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 71.805s | Val AUC: 78.29 |
+2021-05-01 10:19:36,183 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 69.457s | Val AUC: 90.29 |
+2021-05-01 10:20:39,824 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 60.063s | Val AUC: 97.70 |
+2021-05-01 10:21:35,625 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 52.626s | Val AUC: 99.09 |
+2021-05-01 10:22:20,548 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 41.654s | Val AUC: 99.12 |
+2021-05-01 10:23:05,292 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 41.867s | Val AUC: 99.07 |
+2021-05-01 10:23:46,484 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 36.147s | Val AUC: 99.00 |
+2021-05-01 10:24:16,399 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 23.399s | Val AUC: 99.04 |
+2021-05-01 10:24:50,676 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 24.812s | Val AUC: 97.79 |
+2021-05-01 10:24:50,686 - root - INFO - Best Model: | Gamma: 0.25000000 | AUC: 99.12
+2021-05-01 10:24:50,686 - root - INFO - Training Time: 41.654s
+2021-05-01 10:24:50,687 - root - INFO - Finished training.
+2021-05-01 10:24:51,728 - root - INFO - Starting testing...
+2021-05-01 10:24:55,501 - root - INFO - Test AUC: 99.68%
+2021-05-01 10:24:55,501 - root - INFO - Test Time: 3.760s
+2021-05-01 10:24:55,503 - root - INFO - Finished testing.
+2021-05-01 10:24:55,987 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 10:24:55,996 - root - INFO - Data path is ../data.
+2021-05-01 10:24:55,997 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 10:24:55,998 - root - INFO - Dataset: mnist
+2021-05-01 10:24:55,998 - root - INFO - Normal class: 1
+2021-05-01 10:24:55,998 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 10:24:55,999 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 10:24:56,000 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 10:24:56,000 - root - INFO - Known anomaly class: 4
+2021-05-01 10:24:56,001 - root - INFO - SSAD kernel: rbf
+2021-05-01 10:24:56,001 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 10:24:56,002 - root - INFO - Hybrid model: False
+2021-05-01 10:24:56,003 - root - INFO - Set seed to 4.
+2021-05-01 10:24:56,003 - root - INFO - Computation device: cuda
+2021-05-01 10:24:56,003 - root - INFO - Number of dataloader workers: 0
+2021-05-01 10:24:56,930 - root - INFO - Starting training...
+2021-05-01 10:26:12,581 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 71.350s | Val AUC: 72.15 |
+2021-05-01 10:27:27,464 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 71.369s | Val AUC: 77.87 |
+2021-05-01 10:28:40,546 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 70.013s | Val AUC: 92.53 |
+2021-05-01 10:29:49,305 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 65.135s | Val AUC: 99.00 |
+2021-05-01 10:30:50,265 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 56.659s | Val AUC: 99.91 |
+2021-05-01 10:31:41,140 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 46.983s | Val AUC: 99.90 |
+2021-05-01 10:32:31,553 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 46.073s | Val AUC: 99.87 |
+2021-05-01 10:33:22,293 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 45.706s | Val AUC: 99.85 |
+2021-05-01 10:33:50,923 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 19.978s | Val AUC: 99.50 |
+2021-05-01 10:34:25,294 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 24.657s | Val AUC: 97.35 |
+2021-05-01 10:34:25,310 - root - INFO - Best Model: | Gamma: 0.12500000 | AUC: 99.91
+2021-05-01 10:34:25,310 - root - INFO - Training Time: 56.659s
+2021-05-01 10:34:25,311 - root - INFO - Finished training.
+2021-05-01 10:34:26,370 - root - INFO - Starting testing...
+2021-05-01 10:34:32,217 - root - INFO - Test AUC: 99.75%
+2021-05-01 10:34:32,217 - root - INFO - Test Time: 5.833s
+2021-05-01 10:34:32,221 - root - INFO - Finished testing.
+2021-05-01 10:34:32,951 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 10:34:32,952 - root - INFO - Data path is ../data.
+2021-05-01 10:34:32,953 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 10:34:32,954 - root - INFO - Dataset: mnist
+2021-05-01 10:34:32,954 - root - INFO - Normal class: 2
+2021-05-01 10:34:32,954 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 10:34:32,955 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 10:34:32,955 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 10:34:32,956 - root - INFO - Known anomaly class: 4
+2021-05-01 10:34:32,956 - root - INFO - SSAD kernel: rbf
+2021-05-01 10:34:32,956 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 10:34:32,957 - root - INFO - Hybrid model: False
+2021-05-01 10:34:32,958 - root - INFO - Set seed to 5.
+2021-05-01 10:34:32,959 - root - INFO - Computation device: cuda
+2021-05-01 10:34:32,959 - root - INFO - Number of dataloader workers: 0
+2021-05-01 10:34:33,890 - root - INFO - Starting training...
+2021-05-01 10:35:13,859 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 37.543s | Val AUC: 84.91 |
+2021-05-01 10:35:52,268 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 36.273s | Val AUC: 84.34 |
+2021-05-01 10:36:32,034 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 38.368s | Val AUC: 85.79 |
+2021-05-01 10:37:07,772 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 33.408s | Val AUC: 86.80 |
+2021-05-01 10:37:26,784 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 15.655s | Val AUC: 84.52 |
+2021-05-01 10:37:46,940 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 17.438s | Val AUC: 75.46 |
+2021-05-01 10:38:09,606 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 19.011s | Val AUC: 69.14 |
+2021-05-01 10:38:33,717 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 18.002s | Val AUC: 67.13 |
+2021-05-01 10:39:00,548 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 18.841s | Val AUC: 49.22 |
+2021-05-01 10:39:25,024 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 16.751s | Val AUC: 45.77 |
+2021-05-01 10:39:25,032 - root - INFO - Best Model: | Gamma: 0.06250000 | AUC: 86.80
+2021-05-01 10:39:25,033 - root - INFO - Training Time: 33.408s
+2021-05-01 10:39:25,033 - root - INFO - Finished training.
+2021-05-01 10:39:26,042 - root - INFO - Starting testing...
+2021-05-01 10:39:29,526 - root - INFO - Test AUC: 86.58%
+2021-05-01 10:39:29,527 - root - INFO - Test Time: 3.467s
+2021-05-01 10:39:29,530 - root - INFO - Finished testing.
+2021-05-01 10:39:30,028 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 10:39:30,029 - root - INFO - Data path is ../data.
+2021-05-01 10:39:30,030 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 10:39:30,030 - root - INFO - Dataset: mnist
+2021-05-01 10:39:30,031 - root - INFO - Normal class: 2
+2021-05-01 10:39:30,031 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 10:39:30,031 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 10:39:30,032 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 10:39:30,032 - root - INFO - Known anomaly class: 5
+2021-05-01 10:39:30,033 - root - INFO - SSAD kernel: rbf
+2021-05-01 10:39:30,033 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 10:39:30,034 - root - INFO - Hybrid model: False
+2021-05-01 10:39:30,035 - root - INFO - Set seed to 6.
+2021-05-01 10:39:30,035 - root - INFO - Computation device: cuda
+2021-05-01 10:39:30,036 - root - INFO - Number of dataloader workers: 0
+2021-05-01 10:39:30,892 - root - INFO - Starting training...
+2021-05-01 10:40:18,748 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 44.176s | Val AUC: 87.94 |
+2021-05-01 10:41:03,212 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 42.001s | Val AUC: 88.32 |
+2021-05-01 10:41:46,169 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 40.310s | Val AUC: 89.17 |
+2021-05-01 10:42:25,863 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 36.943s | Val AUC: 85.92 |
+2021-05-01 10:42:46,573 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 17.633s | Val AUC: 83.12 |
+2021-05-01 10:43:06,915 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 17.185s | Val AUC: 74.01 |
+2021-05-01 10:43:26,817 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 16.861s | Val AUC: 69.22 |
+2021-05-01 10:43:50,650 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 18.137s | Val AUC: 67.67 |
+2021-05-01 10:44:13,274 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 14.764s | Val AUC: 48.90 |
+2021-05-01 10:44:38,151 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 16.508s | Val AUC: 45.59 |
+2021-05-01 10:44:38,155 - root - INFO - Best Model: | Gamma: 0.03125000 | AUC: 89.17
+2021-05-01 10:44:38,155 - root - INFO - Training Time: 40.310s
+2021-05-01 10:44:38,156 - root - INFO - Finished training.
+2021-05-01 10:44:39,167 - root - INFO - Starting testing...
+2021-05-01 10:44:40,865 - root - INFO - Test AUC: 87.66%
+2021-05-01 10:44:40,865 - root - INFO - Test Time: 1.682s
+2021-05-01 10:44:40,866 - root - INFO - Finished testing.
+2021-05-01 10:44:41,329 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 10:44:41,330 - root - INFO - Data path is ../data.
+2021-05-01 10:44:41,331 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 10:44:41,331 - root - INFO - Dataset: mnist
+2021-05-01 10:44:41,332 - root - INFO - Normal class: 3
+2021-05-01 10:44:41,332 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 10:44:41,332 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 10:44:41,333 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 10:44:41,333 - root - INFO - Known anomaly class: 1
+2021-05-01 10:44:41,334 - root - INFO - SSAD kernel: rbf
+2021-05-01 10:44:41,334 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 10:44:41,335 - root - INFO - Hybrid model: False
+2021-05-01 10:44:41,336 - root - INFO - Set seed to 7.
+2021-05-01 10:44:41,336 - root - INFO - Computation device: cuda
+2021-05-01 10:44:41,336 - root - INFO - Number of dataloader workers: 0
+2021-05-01 10:44:42,225 - root - INFO - Starting training...
+2021-05-01 10:45:30,213 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 44.756s | Val AUC: 71.89 |
+2021-05-01 10:46:20,368 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 47.617s | Val AUC: 76.69 |
+2021-05-01 10:47:03,785 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 40.553s | Val AUC: 84.24 |
+2021-05-01 10:47:49,642 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 42.859s | Val AUC: 89.79 |
+2021-05-01 10:48:31,881 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 39.524s | Val AUC: 94.03 |
+2021-05-01 10:49:05,322 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 30.657s | Val AUC: 90.53 |
+2021-05-01 10:49:30,898 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 23.328s | Val AUC: 85.70 |
+2021-05-01 10:49:48,257 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 12.790s | Val AUC: 83.71 |
+2021-05-01 10:50:13,837 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 18.423s | Val AUC: 65.46 |
+2021-05-01 10:50:34,737 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 14.052s | Val AUC: 56.22 |
+2021-05-01 10:50:34,752 - root - INFO - Best Model: | Gamma: 0.12500000 | AUC: 94.03
+2021-05-01 10:50:34,753 - root - INFO - Training Time: 39.524s
+2021-05-01 10:50:34,753 - root - INFO - Finished training.
+2021-05-01 10:50:35,802 - root - INFO - Starting testing...
+2021-05-01 10:50:40,656 - root - INFO - Test AUC: 91.91%
+2021-05-01 10:50:40,656 - root - INFO - Test Time: 4.728s
+2021-05-01 10:50:40,658 - root - INFO - Finished testing.
+2021-05-01 10:50:41,142 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 10:50:41,143 - root - INFO - Data path is ../data.
+2021-05-01 10:50:41,144 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 10:50:41,145 - root - INFO - Dataset: mnist
+2021-05-01 10:50:41,145 - root - INFO - Normal class: 3
+2021-05-01 10:50:41,146 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 10:50:41,146 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 10:50:41,147 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 10:50:41,147 - root - INFO - Known anomaly class: 6
+2021-05-01 10:50:41,148 - root - INFO - SSAD kernel: rbf
+2021-05-01 10:50:41,148 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 10:50:41,149 - root - INFO - Hybrid model: False
+2021-05-01 10:50:41,150 - root - INFO - Set seed to 8.
+2021-05-01 10:50:41,151 - root - INFO - Computation device: cuda
+2021-05-01 10:50:41,151 - root - INFO - Number of dataloader workers: 0
+2021-05-01 10:50:42,030 - root - INFO - Starting training...
+2021-05-01 10:51:30,685 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 45.052s | Val AUC: 86.99 |
+2021-05-01 10:52:20,728 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 47.531s | Val AUC: 87.72 |
+2021-05-01 10:53:04,028 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 40.744s | Val AUC: 88.45 |
+2021-05-01 10:53:43,713 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 36.176s | Val AUC: 87.39 |
+2021-05-01 10:54:21,145 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 34.578s | Val AUC: 84.52 |
+2021-05-01 10:54:40,030 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 16.666s | Val AUC: 78.23 |
+2021-05-01 10:54:58,832 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.984s | Val AUC: 74.24 |
+2021-05-01 10:55:20,278 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 17.344s | Val AUC: 72.68 |
+2021-05-01 10:55:44,277 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 17.490s | Val AUC: 56.44 |
+2021-05-01 10:56:08,277 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 18.209s | Val AUC: 45.44 |
+2021-05-01 10:56:08,280 - root - INFO - Best Model: | Gamma: 0.03125000 | AUC: 88.45
+2021-05-01 10:56:08,280 - root - INFO - Training Time: 40.744s
+2021-05-01 10:56:08,281 - root - INFO - Finished training.
+2021-05-01 10:56:09,056 - root - INFO - Starting testing...
+2021-05-01 10:56:10,042 - root - INFO - Test AUC: 89.95%
+2021-05-01 10:56:10,042 - root - INFO - Test Time: 0.978s
+2021-05-01 10:56:10,044 - root - INFO - Finished testing.
+2021-05-01 10:56:10,431 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 10:56:10,432 - root - INFO - Data path is ../data.
+2021-05-01 10:56:10,433 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 10:56:10,433 - root - INFO - Dataset: mnist
+2021-05-01 10:56:10,434 - root - INFO - Normal class: 4
+2021-05-01 10:56:10,434 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 10:56:10,434 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 10:56:10,435 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 10:56:10,435 - root - INFO - Known anomaly class: 3
+2021-05-01 10:56:10,436 - root - INFO - SSAD kernel: rbf
+2021-05-01 10:56:10,436 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 10:56:10,437 - root - INFO - Hybrid model: False
+2021-05-01 10:56:10,438 - root - INFO - Set seed to 9.
+2021-05-01 10:56:10,438 - root - INFO - Computation device: cuda
+2021-05-01 10:56:10,438 - root - INFO - Number of dataloader workers: 0
+2021-05-01 10:56:11,199 - root - INFO - Starting training...
+2021-05-01 10:56:48,193 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 34.973s | Val AUC: 90.84 |
+2021-05-01 10:57:24,284 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 34.799s | Val AUC: 91.33 |
+2021-05-01 10:58:04,693 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 38.608s | Val AUC: 93.25 |
+2021-05-01 10:58:42,615 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 35.025s | Val AUC: 92.15 |
+2021-05-01 10:59:19,136 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 33.338s | Val AUC: 88.20 |
+2021-05-01 10:59:36,764 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 14.388s | Val AUC: 82.35 |
+2021-05-01 10:59:56,406 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 16.474s | Val AUC: 79.79 |
+2021-05-01 11:00:17,703 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 16.573s | Val AUC: 78.17 |
+2021-05-01 11:00:39,787 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 14.419s | Val AUC: 66.43 |
+2021-05-01 11:01:05,086 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 17.187s | Val AUC: 46.53 |
+2021-05-01 11:01:05,091 - root - INFO - Best Model: | Gamma: 0.03125000 | AUC: 93.25
+2021-05-01 11:01:05,092 - root - INFO - Training Time: 38.608s
+2021-05-01 11:01:05,093 - root - INFO - Finished training.
+2021-05-01 11:01:06,155 - root - INFO - Starting testing...
+2021-05-01 11:01:08,089 - root - INFO - Test AUC: 93.47%
+2021-05-01 11:01:08,090 - root - INFO - Test Time: 1.924s
+2021-05-01 11:01:08,092 - root - INFO - Finished testing.
+2021-05-01 11:01:08,582 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 11:01:08,582 - root - INFO - Data path is ../data.
+2021-05-01 11:01:08,583 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 11:01:08,584 - root - INFO - Dataset: mnist
+2021-05-01 11:01:08,584 - root - INFO - Normal class: 4
+2021-05-01 11:01:08,584 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 11:01:08,585 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 11:01:08,585 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 11:01:08,586 - root - INFO - Known anomaly class: 8
+2021-05-01 11:01:08,587 - root - INFO - SSAD kernel: rbf
+2021-05-01 11:01:08,587 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 11:01:08,587 - root - INFO - Hybrid model: False
+2021-05-01 11:01:08,588 - root - INFO - Set seed to 10.
+2021-05-01 11:01:08,589 - root - INFO - Computation device: cuda
+2021-05-01 11:01:08,589 - root - INFO - Number of dataloader workers: 0
+2021-05-01 11:01:09,218 - root - INFO - Starting training...
+2021-05-01 11:01:48,440 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 36.889s | Val AUC: 89.10 |
+2021-05-01 11:02:26,960 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 36.489s | Val AUC: 89.55 |
+2021-05-01 11:03:04,368 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 34.753s | Val AUC: 91.50 |
+2021-05-01 11:03:36,290 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 29.211s | Val AUC: 91.54 |
+2021-05-01 11:04:05,149 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 25.614s | Val AUC: 88.82 |
+2021-05-01 11:04:20,629 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 12.820s | Val AUC: 83.47 |
+2021-05-01 11:04:37,403 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 14.767s | Val AUC: 80.04 |
+2021-05-01 11:04:58,735 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 16.593s | Val AUC: 78.79 |
+2021-05-01 11:05:22,774 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 16.580s | Val AUC: 67.59 |
+2021-05-01 11:05:45,708 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 14.762s | Val AUC: 46.93 |
+2021-05-01 11:05:45,715 - root - INFO - Best Model: | Gamma: 0.06250000 | AUC: 91.54
+2021-05-01 11:05:45,715 - root - INFO - Training Time: 29.211s
+2021-05-01 11:05:45,716 - root - INFO - Finished training.
+2021-05-01 11:05:46,742 - root - INFO - Starting testing...
+2021-05-01 11:05:49,540 - root - INFO - Test AUC: 92.02%
+2021-05-01 11:05:49,541 - root - INFO - Test Time: 2.688s
+2021-05-01 11:05:49,543 - root - INFO - Finished testing.
+2021-05-01 11:05:50,063 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 11:05:50,063 - root - INFO - Data path is ../data.
+2021-05-01 11:05:50,066 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 11:05:50,067 - root - INFO - Dataset: mnist
+2021-05-01 11:05:50,069 - root - INFO - Normal class: 5
+2021-05-01 11:05:50,071 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 11:05:50,072 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 11:05:50,072 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 11:05:50,073 - root - INFO - Known anomaly class: 0
+2021-05-01 11:05:50,074 - root - INFO - SSAD kernel: rbf
+2021-05-01 11:05:50,075 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 11:05:50,075 - root - INFO - Hybrid model: False
+2021-05-01 11:05:50,076 - root - INFO - Set seed to 11.
+2021-05-01 11:05:50,077 - root - INFO - Computation device: cuda
+2021-05-01 11:05:50,077 - root - INFO - Number of dataloader workers: 0
+2021-05-01 11:05:50,859 - root - INFO - Starting training...
+2021-05-01 11:06:32,582 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 38.719s | Val AUC: 68.27 |
+2021-05-01 11:07:05,575 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 30.978s | Val AUC: 73.81 |
+2021-05-01 11:07:38,685 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 30.922s | Val AUC: 77.40 |
+2021-05-01 11:08:09,107 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.414s | Val AUC: 80.34 |
+2021-05-01 11:08:38,992 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 26.209s | Val AUC: 80.38 |
+2021-05-01 11:08:53,096 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 11.549s | Val AUC: 74.68 |
+2021-05-01 11:09:06,136 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 10.786s | Val AUC: 71.05 |
+2021-05-01 11:09:21,788 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 11.331s | Val AUC: 68.69 |
+2021-05-01 11:09:38,904 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 11.655s | Val AUC: 52.36 |
+2021-05-01 11:09:54,713 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 11.273s | Val AUC: 45.55 |
+2021-05-01 11:09:54,724 - root - INFO - Best Model: | Gamma: 0.12500000 | AUC: 80.38
+2021-05-01 11:09:54,724 - root - INFO - Training Time: 26.209s
+2021-05-01 11:09:54,725 - root - INFO - Finished training.
+2021-05-01 11:09:55,583 - root - INFO - Starting testing...
+2021-05-01 11:09:59,280 - root - INFO - Test AUC: 82.06%
+2021-05-01 11:09:59,280 - root - INFO - Test Time: 3.681s
+2021-05-01 11:09:59,281 - root - INFO - Finished testing.
+2021-05-01 11:09:59,739 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 11:09:59,739 - root - INFO - Data path is ../data.
+2021-05-01 11:09:59,740 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 11:09:59,741 - root - INFO - Dataset: mnist
+2021-05-01 11:09:59,741 - root - INFO - Normal class: 5
+2021-05-01 11:09:59,742 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 11:09:59,742 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 11:09:59,742 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 11:09:59,743 - root - INFO - Known anomaly class: 8
+2021-05-01 11:09:59,743 - root - INFO - SSAD kernel: rbf
+2021-05-01 11:09:59,744 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 11:09:59,744 - root - INFO - Hybrid model: False
+2021-05-01 11:09:59,745 - root - INFO - Set seed to 12.
+2021-05-01 11:09:59,745 - root - INFO - Computation device: cuda
+2021-05-01 11:09:59,746 - root - INFO - Number of dataloader workers: 0
+2021-05-01 11:10:00,387 - root - INFO - Starting training...
+2021-05-01 11:10:29,079 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 25.999s | Val AUC: 82.13 |
+2021-05-01 11:10:57,755 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 26.909s | Val AUC: 83.33 |
+2021-05-01 11:11:22,385 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 22.897s | Val AUC: 86.96 |
+2021-05-01 11:11:43,939 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 19.315s | Val AUC: 88.84 |
+2021-05-01 11:12:05,642 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 19.735s | Val AUC: 86.86 |
+2021-05-01 11:12:17,052 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 9.831s | Val AUC: 79.90 |
+2021-05-01 11:12:29,420 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 10.506s | Val AUC: 75.86 |
+2021-05-01 11:12:40,756 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 8.626s | Val AUC: 74.21 |
+2021-05-01 11:12:58,082 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 11.719s | Val AUC: 54.98 |
+2021-05-01 11:13:15,626 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 11.570s | Val AUC: 46.34 |
+2021-05-01 11:13:15,636 - root - INFO - Best Model: | Gamma: 0.06250000 | AUC: 88.84
+2021-05-01 11:13:15,636 - root - INFO - Training Time: 19.315s
+2021-05-01 11:13:15,638 - root - INFO - Finished training.
+2021-05-01 11:13:16,606 - root - INFO - Starting testing...
+2021-05-01 11:13:20,291 - root - INFO - Test AUC: 86.61%
+2021-05-01 11:13:20,291 - root - INFO - Test Time: 3.674s
+2021-05-01 11:13:20,293 - root - INFO - Finished testing.
+2021-05-01 11:13:20,828 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 11:13:20,828 - root - INFO - Data path is ../data.
+2021-05-01 11:13:20,830 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 11:13:20,832 - root - INFO - Dataset: mnist
+2021-05-01 11:13:20,833 - root - INFO - Normal class: 6
+2021-05-01 11:13:20,834 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 11:13:20,835 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 11:13:20,837 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 11:13:20,837 - root - INFO - Known anomaly class: 8
+2021-05-01 11:13:20,838 - root - INFO - SSAD kernel: rbf
+2021-05-01 11:13:20,839 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 11:13:20,839 - root - INFO - Hybrid model: False
+2021-05-01 11:13:20,840 - root - INFO - Set seed to 13.
+2021-05-01 11:13:20,841 - root - INFO - Computation device: cuda
+2021-05-01 11:13:20,841 - root - INFO - Number of dataloader workers: 0
+2021-05-01 11:13:21,549 - root - INFO - Starting training...
+2021-05-01 11:14:05,087 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 40.520s | Val AUC: 88.13 |
+2021-05-01 11:14:42,938 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.972s | Val AUC: 88.05 |
+2021-05-01 11:15:22,574 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 37.495s | Val AUC: 91.58 |
+2021-05-01 11:15:56,830 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 32.469s | Val AUC: 93.19 |
+2021-05-01 11:16:24,574 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 25.379s | Val AUC: 90.57 |
+2021-05-01 11:16:41,224 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 14.320s | Val AUC: 84.76 |
+2021-05-01 11:16:54,679 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 11.067s | Val AUC: 81.40 |
+2021-05-01 11:17:11,003 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 12.682s | Val AUC: 80.20 |
+2021-05-01 11:17:29,941 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 13.754s | Val AUC: 69.95 |
+2021-05-01 11:17:48,951 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 14.531s | Val AUC: 48.05 |
+2021-05-01 11:17:48,955 - root - INFO - Best Model: | Gamma: 0.06250000 | AUC: 93.19
+2021-05-01 11:17:48,955 - root - INFO - Training Time: 32.469s
+2021-05-01 11:17:48,956 - root - INFO - Finished training.
+2021-05-01 11:17:49,604 - root - INFO - Starting testing...
+2021-05-01 11:17:50,761 - root - INFO - Test AUC: 92.99%
+2021-05-01 11:17:50,761 - root - INFO - Test Time: 1.149s
+2021-05-01 11:17:50,762 - root - INFO - Finished testing.
+2021-05-01 11:17:51,123 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 11:17:51,123 - root - INFO - Data path is ../data.
+2021-05-01 11:17:51,124 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 11:17:51,124 - root - INFO - Dataset: mnist
+2021-05-01 11:17:51,125 - root - INFO - Normal class: 6
+2021-05-01 11:17:51,125 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 11:17:51,125 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 11:17:51,126 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 11:17:51,126 - root - INFO - Known anomaly class: 4
+2021-05-01 11:17:51,126 - root - INFO - SSAD kernel: rbf
+2021-05-01 11:17:51,127 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 11:17:51,127 - root - INFO - Hybrid model: False
+2021-05-01 11:17:51,128 - root - INFO - Set seed to 14.
+2021-05-01 11:17:51,128 - root - INFO - Computation device: cuda
+2021-05-01 11:17:51,128 - root - INFO - Number of dataloader workers: 0
+2021-05-01 11:17:51,723 - root - INFO - Starting training...
+2021-05-01 11:18:24,743 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 31.263s | Val AUC: 77.87 |
+2021-05-01 11:18:58,821 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 32.858s | Val AUC: 81.35 |
+2021-05-01 11:19:39,846 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 38.448s | Val AUC: 85.89 |
+2021-05-01 11:20:14,768 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 32.732s | Val AUC: 90.80 |
+2021-05-01 11:20:47,033 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 29.848s | Val AUC: 90.72 |
+2021-05-01 11:21:04,248 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 14.975s | Val AUC: 86.14 |
+2021-05-01 11:21:20,791 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 14.422s | Val AUC: 83.01 |
+2021-05-01 11:21:39,094 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 15.072s | Val AUC: 81.47 |
+2021-05-01 11:21:59,461 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 14.718s | Val AUC: 69.29 |
+2021-05-01 11:22:20,414 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.344s | Val AUC: 48.08 |
+2021-05-01 11:22:20,420 - root - INFO - Best Model: | Gamma: 0.06250000 | AUC: 90.80
+2021-05-01 11:22:20,420 - root - INFO - Training Time: 32.732s
+2021-05-01 11:22:20,421 - root - INFO - Finished training.
+2021-05-01 11:22:21,278 - root - INFO - Starting testing...
+2021-05-01 11:22:23,402 - root - INFO - Test AUC: 91.07%
+2021-05-01 11:22:23,402 - root - INFO - Test Time: 2.110s
+2021-05-01 11:22:23,402 - root - INFO - Finished testing.
+2021-05-01 11:22:23,842 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 11:22:23,842 - root - INFO - Data path is ../data.
+2021-05-01 11:22:23,843 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 11:22:23,843 - root - INFO - Dataset: mnist
+2021-05-01 11:22:23,844 - root - INFO - Normal class: 7
+2021-05-01 11:22:23,844 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 11:22:23,844 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 11:22:23,844 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 11:22:23,845 - root - INFO - Known anomaly class: 1
+2021-05-01 11:22:23,845 - root - INFO - SSAD kernel: rbf
+2021-05-01 11:22:23,845 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 11:22:23,845 - root - INFO - Hybrid model: False
+2021-05-01 11:22:23,846 - root - INFO - Set seed to 15.
+2021-05-01 11:22:23,846 - root - INFO - Computation device: cuda
+2021-05-01 11:22:23,846 - root - INFO - Number of dataloader workers: 0
+2021-05-01 11:22:24,584 - root - INFO - Starting training...
+2021-05-01 11:23:05,820 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 38.312s | Val AUC: 68.95 |
+2021-05-01 11:23:43,693 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 35.896s | Val AUC: 73.70 |
+2021-05-01 11:24:23,347 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 38.114s | Val AUC: 83.78 |
+2021-05-01 11:25:02,352 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 36.641s | Val AUC: 94.11 |
+2021-05-01 11:25:43,223 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 38.394s | Val AUC: 96.48 |
+2021-05-01 11:26:20,817 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 35.394s | Val AUC: 95.85 |
+2021-05-01 11:26:44,312 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 21.558s | Val AUC: 95.99 |
+2021-05-01 11:27:04,119 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 16.482s | Val AUC: 96.52 |
+2021-05-01 11:27:26,807 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 17.049s | Val AUC: 88.69 |
+2021-05-01 11:27:48,583 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 14.831s | Val AUC: 68.41 |
+2021-05-01 11:27:48,596 - root - INFO - Best Model: | Gamma: 1.00000000 | AUC: 96.52
+2021-05-01 11:27:48,596 - root - INFO - Training Time: 16.482s
+2021-05-01 11:27:48,597 - root - INFO - Finished training.
+2021-05-01 11:27:49,408 - root - INFO - Starting testing...
+2021-05-01 11:27:55,428 - root - INFO - Test AUC: 94.94%
+2021-05-01 11:27:55,429 - root - INFO - Test Time: 5.936s
+2021-05-01 11:27:55,429 - root - INFO - Finished testing.
+2021-05-01 11:27:55,842 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 11:27:55,843 - root - INFO - Data path is ../data.
+2021-05-01 11:27:55,843 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 11:27:55,843 - root - INFO - Dataset: mnist
+2021-05-01 11:27:55,843 - root - INFO - Normal class: 7
+2021-05-01 11:27:55,843 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 11:27:55,844 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 11:27:55,844 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 11:27:55,844 - root - INFO - Known anomaly class: 3
+2021-05-01 11:27:55,844 - root - INFO - SSAD kernel: rbf
+2021-05-01 11:27:55,844 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 11:27:55,844 - root - INFO - Hybrid model: False
+2021-05-01 11:27:55,845 - root - INFO - Set seed to 16.
+2021-05-01 11:27:55,845 - root - INFO - Computation device: cuda
+2021-05-01 11:27:55,845 - root - INFO - Number of dataloader workers: 0
+2021-05-01 11:27:56,620 - root - INFO - Starting training...
+2021-05-01 11:28:40,671 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 41.248s | Val AUC: 83.31 |
+2021-05-01 11:29:23,099 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 40.244s | Val AUC: 85.91 |
+2021-05-01 11:30:02,175 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 37.812s | Val AUC: 91.35 |
+2021-05-01 11:30:38,601 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 34.057s | Val AUC: 92.20 |
+2021-05-01 11:31:13,542 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 32.174s | Val AUC: 91.11 |
+2021-05-01 11:31:45,381 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 29.408s | Val AUC: 88.27 |
+2021-05-01 11:32:03,701 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 15.660s | Val AUC: 86.01 |
+2021-05-01 11:32:24,138 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 16.601s | Val AUC: 85.15 |
+2021-05-01 11:32:45,978 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 15.869s | Val AUC: 77.00 |
+2021-05-01 11:33:07,316 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 15.030s | Val AUC: 53.27 |
+2021-05-01 11:33:07,319 - root - INFO - Best Model: | Gamma: 0.06250000 | AUC: 92.20
+2021-05-01 11:33:07,319 - root - INFO - Training Time: 34.057s
+2021-05-01 11:33:07,320 - root - INFO - Finished training.
+2021-05-01 11:33:08,035 - root - INFO - Starting testing...
+2021-05-01 11:33:09,237 - root - INFO - Test AUC: 92.76%
+2021-05-01 11:33:09,238 - root - INFO - Test Time: 1.197s
+2021-05-01 11:33:09,239 - root - INFO - Finished testing.
+2021-05-01 11:33:09,562 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 11:33:09,562 - root - INFO - Data path is ../data.
+2021-05-01 11:33:09,563 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 11:33:09,564 - root - INFO - Dataset: mnist
+2021-05-01 11:33:09,564 - root - INFO - Normal class: 8
+2021-05-01 11:33:09,564 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 11:33:09,565 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 11:33:09,565 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 11:33:09,566 - root - INFO - Known anomaly class: 5
+2021-05-01 11:33:09,566 - root - INFO - SSAD kernel: rbf
+2021-05-01 11:33:09,566 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 11:33:09,567 - root - INFO - Hybrid model: False
+2021-05-01 11:33:09,567 - root - INFO - Set seed to 17.
+2021-05-01 11:33:09,567 - root - INFO - Computation device: cuda
+2021-05-01 11:33:09,569 - root - INFO - Number of dataloader workers: 0
+2021-05-01 11:33:10,082 - root - INFO - Starting training...
+2021-05-01 11:33:43,533 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 30.957s | Val AUC: 84.42 |
+2021-05-01 11:34:10,961 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 26.334s | Val AUC: 85.08 |
+2021-05-01 11:34:41,589 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 28.705s | Val AUC: 82.85 |
+2021-05-01 11:35:13,630 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 29.831s | Val AUC: 84.16 |
+2021-05-01 11:35:41,831 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 25.831s | Val AUC: 82.33 |
+2021-05-01 11:35:58,214 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 14.143s | Val AUC: 75.70 |
+2021-05-01 11:36:13,372 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 13.094s | Val AUC: 71.24 |
+2021-05-01 11:36:31,142 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 14.097s | Val AUC: 69.17 |
+2021-05-01 11:36:49,683 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 12.344s | Val AUC: 54.15 |
+2021-05-01 11:37:07,802 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 11.844s | Val AUC: 46.56 |
+2021-05-01 11:37:07,804 - root - INFO - Best Model: | Gamma: 0.01562500 | AUC: 85.08
+2021-05-01 11:37:07,805 - root - INFO - Training Time: 26.334s
+2021-05-01 11:37:07,805 - root - INFO - Finished training.
+2021-05-01 11:37:08,661 - root - INFO - Starting testing...
+2021-05-01 11:37:09,217 - root - INFO - Test AUC: 84.67%
+2021-05-01 11:37:09,217 - root - INFO - Test Time: 0.546s
+2021-05-01 11:37:09,218 - root - INFO - Finished testing.
+2021-05-01 11:37:09,667 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 11:37:09,668 - root - INFO - Data path is ../data.
+2021-05-01 11:37:09,669 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 11:37:09,670 - root - INFO - Dataset: mnist
+2021-05-01 11:37:09,670 - root - INFO - Normal class: 8
+2021-05-01 11:37:09,670 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 11:37:09,671 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 11:37:09,671 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 11:37:09,671 - root - INFO - Known anomaly class: 9
+2021-05-01 11:37:09,672 - root - INFO - SSAD kernel: rbf
+2021-05-01 11:37:09,672 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 11:37:09,672 - root - INFO - Hybrid model: False
+2021-05-01 11:37:09,673 - root - INFO - Set seed to 18.
+2021-05-01 11:37:09,673 - root - INFO - Computation device: cuda
+2021-05-01 11:37:09,674 - root - INFO - Number of dataloader workers: 0
+2021-05-01 11:37:10,347 - root - INFO - Starting training...
+2021-05-01 11:37:42,322 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 29.321s | Val AUC: 90.00 |
+2021-05-01 11:38:11,916 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 27.816s | Val AUC: 90.61 |
+2021-05-01 11:38:41,151 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 27.695s | Val AUC: 89.94 |
+2021-05-01 11:39:14,125 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 31.385s | Val AUC: 87.28 |
+2021-05-01 11:39:42,993 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 26.605s | Val AUC: 84.71 |
+2021-05-01 11:39:59,953 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 14.606s | Val AUC: 77.78 |
+2021-05-01 11:40:16,954 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 14.495s | Val AUC: 72.58 |
+2021-05-01 11:40:33,992 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 13.264s | Val AUC: 70.16 |
+2021-05-01 11:40:54,627 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 14.583s | Val AUC: 52.15 |
+2021-05-01 11:41:13,166 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 12.427s | Val AUC: 46.06 |
+2021-05-01 11:41:13,167 - root - INFO - Best Model: | Gamma: 0.01562500 | AUC: 90.61
+2021-05-01 11:41:13,168 - root - INFO - Training Time: 27.816s
+2021-05-01 11:41:13,168 - root - INFO - Finished training.
+2021-05-01 11:41:13,972 - root - INFO - Starting testing...
+2021-05-01 11:41:14,456 - root - INFO - Test AUC: 87.99%
+2021-05-01 11:41:14,457 - root - INFO - Test Time: 0.410s
+2021-05-01 11:41:14,457 - root - INFO - Finished testing.
+2021-05-01 11:41:14,877 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 11:41:14,877 - root - INFO - Data path is ../data.
+2021-05-01 11:41:14,878 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 11:41:14,878 - root - INFO - Dataset: mnist
+2021-05-01 11:41:14,878 - root - INFO - Normal class: 9
+2021-05-01 11:41:14,878 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 11:41:14,878 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 11:41:14,879 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 11:41:14,879 - root - INFO - Known anomaly class: 2
+2021-05-01 11:41:14,879 - root - INFO - SSAD kernel: rbf
+2021-05-01 11:41:14,879 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 11:41:14,879 - root - INFO - Hybrid model: False
+2021-05-01 11:41:14,880 - root - INFO - Set seed to 19.
+2021-05-01 11:41:14,880 - root - INFO - Computation device: cuda
+2021-05-01 11:41:14,880 - root - INFO - Number of dataloader workers: 0
+2021-05-01 11:41:15,587 - root - INFO - Starting training...
+2021-05-01 11:41:53,417 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 35.281s | Val AUC: 88.37 |
+2021-05-01 11:42:29,050 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 33.841s | Val AUC: 91.46 |
+2021-05-01 11:43:09,213 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 38.805s | Val AUC: 94.83 |
+2021-05-01 11:43:38,349 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 27.860s | Val AUC: 95.13 |
+2021-05-01 11:44:04,276 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 24.500s | Val AUC: 91.48 |
+2021-05-01 11:44:17,531 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 11.405s | Val AUC: 86.41 |
+2021-05-01 11:44:31,174 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 11.424s | Val AUC: 83.80 |
+2021-05-01 11:44:46,831 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 12.776s | Val AUC: 82.91 |
+2021-05-01 11:45:07,156 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 14.174s | Val AUC: 77.90 |
+2021-05-01 11:45:26,511 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 13.264s | Val AUC: 48.04 |
+2021-05-01 11:45:26,515 - root - INFO - Best Model: | Gamma: 0.06250000 | AUC: 95.13
+2021-05-01 11:45:26,516 - root - INFO - Training Time: 27.860s
+2021-05-01 11:45:26,516 - root - INFO - Finished training.
+2021-05-01 11:45:27,356 - root - INFO - Starting testing...
+2021-05-01 11:45:28,840 - root - INFO - Test AUC: 92.77%
+2021-05-01 11:45:28,840 - root - INFO - Test Time: 1.471s
+2021-05-01 11:45:28,840 - root - INFO - Finished testing.
+2021-05-01 11:45:29,316 - root - INFO - Log file is ../log/ssad/mnist_test_yl=0.1/log.txt.
+2021-05-01 11:45:29,316 - root - INFO - Data path is ../data.
+2021-05-01 11:45:29,317 - root - INFO - Export path is ../log/ssad/mnist_test_yl=0.1.
+2021-05-01 11:45:29,317 - root - INFO - Dataset: mnist
+2021-05-01 11:45:29,317 - root - INFO - Normal class: 9
+2021-05-01 11:45:29,317 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-01 11:45:29,318 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-01 11:45:29,318 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-01 11:45:29,318 - root - INFO - Known anomaly class: 0
+2021-05-01 11:45:29,318 - root - INFO - SSAD kernel: rbf
+2021-05-01 11:45:29,318 - root - INFO - Kappa-paramerter: 1.00
+2021-05-01 11:45:29,319 - root - INFO - Hybrid model: False
+2021-05-01 11:45:29,319 - root - INFO - Set seed to 20.
+2021-05-01 11:45:29,320 - root - INFO - Computation device: cuda
+2021-05-01 11:45:29,320 - root - INFO - Number of dataloader workers: 0
+2021-05-01 11:45:30,030 - root - INFO - Starting training...
+2021-05-01 11:46:09,640 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 36.759s | Val AUC: 85.02 |
+2021-05-01 11:46:45,058 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 33.617s | Val AUC: 87.84 |
+2021-05-01 11:47:19,534 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 32.371s | Val AUC: 90.82 |
+2021-05-01 11:47:55,159 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 33.295s | Val AUC: 92.25 |
+2021-05-01 11:48:24,858 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 27.641s | Val AUC: 91.12 |
+2021-05-01 11:48:38,381 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 11.151s | Val AUC: 88.14 |
+2021-05-01 11:48:53,551 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 12.930s | Val AUC: 85.86 |
+2021-05-01 11:49:10,101 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 13.791s | Val AUC: 85.02 |
+2021-05-01 11:49:27,364 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 12.511s | Val AUC: 78.35 |
+2021-05-01 11:49:43,918 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 10.664s | Val AUC: 49.79 |
+2021-05-01 11:49:43,930 - root - INFO - Best Model: | Gamma: 0.06250000 | AUC: 92.25
+2021-05-01 11:49:43,931 - root - INFO - Training Time: 33.295s
+2021-05-01 11:49:43,933 - root - INFO - Finished training.
+2021-05-01 11:49:44,782 - root - INFO - Starting testing...
+2021-05-01 11:49:48,622 - root - INFO - Test AUC: 90.99%
+2021-05-01 11:49:48,622 - root - INFO - Test Time: 3.832s
+2021-05-01 11:49:48,623 - root - INFO - Finished testing.

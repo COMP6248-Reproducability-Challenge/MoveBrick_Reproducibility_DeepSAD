@@ -1,0 +1,660 @@
+2021-05-07 23:20:30,631 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:20:30,631 - root - INFO - Data path is ../data.
+2021-05-07 23:20:30,631 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:20:30,631 - root - INFO - Dataset: cifar10
+2021-05-07 23:20:30,631 - root - INFO - Normal class: 0
+2021-05-07 23:20:30,631 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:20:30,631 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:20:30,631 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:20:30,631 - root - INFO - Known anomaly class: 4
+2021-05-07 23:20:30,631 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:20:30,631 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:20:30,631 - root - INFO - Hybrid model: False
+2021-05-07 23:20:30,631 - root - INFO - Set seed to 1.
+2021-05-07 23:20:30,631 - root - INFO - Computation device: cuda
+2021-05-07 23:20:30,631 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:20:34,068 - root - INFO - Starting training...
+2021-05-07 23:20:49,178 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 12.266s | Val AUC: 78.04 |
+2021-05-07 23:21:02,053 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 11.031s | Val AUC: 81.91 |
+2021-05-07 23:21:14,663 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 10.657s | Val AUC: 83.24 |
+2021-05-07 23:21:26,382 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 9.719s | Val AUC: 82.64 |
+2021-05-07 23:21:33,757 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.329s | Val AUC: 83.21 |
+2021-05-07 23:21:41,632 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.407s | Val AUC: 83.29 |
+2021-05-07 23:21:50,163 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.376s | Val AUC: 76.72 |
+2021-05-07 23:21:58,758 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.328s | Val AUC: 56.92 |
+2021-05-07 23:22:07,242 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.188s | Val AUC: 50.50 |
+2021-05-07 23:22:15,711 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.172s | Val AUC: 50.00 |
+2021-05-07 23:22:15,727 - root - INFO - Best Model: | Gamma: 0.25000000 | AUC: 83.29
+2021-05-07 23:22:15,727 - root - INFO - Training Time: 5.407s
+2021-05-07 23:22:15,727 - root - INFO - Finished training.
+2021-05-07 23:22:16,758 - root - INFO - Starting testing...
+2021-05-07 23:22:20,913 - root - INFO - Test AUC: 79.75%
+2021-05-07 23:22:20,913 - root - INFO - Test Time: 4.156s
+2021-05-07 23:22:20,913 - root - INFO - Finished testing.
+2021-05-07 23:22:21,321 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:22:21,321 - root - INFO - Data path is ../data.
+2021-05-07 23:22:21,321 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:22:21,321 - root - INFO - Dataset: cifar10
+2021-05-07 23:22:21,321 - root - INFO - Normal class: 0
+2021-05-07 23:22:21,321 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:22:21,321 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:22:21,321 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:22:21,321 - root - INFO - Known anomaly class: 3
+2021-05-07 23:22:21,321 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:22:21,321 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:22:21,321 - root - INFO - Hybrid model: False
+2021-05-07 23:22:21,399 - root - INFO - Set seed to 2.
+2021-05-07 23:22:21,399 - root - INFO - Computation device: cuda
+2021-05-07 23:22:21,399 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:22:23,446 - root - INFO - Starting training...
+2021-05-07 23:22:37,759 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 11.376s | Val AUC: 77.08 |
+2021-05-07 23:22:50,212 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 10.626s | Val AUC: 78.45 |
+2021-05-07 23:23:02,743 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 10.532s | Val AUC: 78.11 |
+2021-05-07 23:23:14,024 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 9.345s | Val AUC: 76.03 |
+2021-05-07 23:23:21,353 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.360s | Val AUC: 74.17 |
+2021-05-07 23:23:29,228 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.360s | Val AUC: 72.94 |
+2021-05-07 23:23:37,666 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.344s | Val AUC: 66.74 |
+2021-05-07 23:23:46,354 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.391s | Val AUC: 55.48 |
+2021-05-07 23:23:54,807 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.219s | Val AUC: 50.50 |
+2021-05-07 23:24:03,150 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.110s | Val AUC: 50.00 |
+2021-05-07 23:24:03,167 - root - INFO - Best Model: | Gamma: 0.01562500 | AUC: 78.45
+2021-05-07 23:24:03,167 - root - INFO - Training Time: 10.626s
+2021-05-07 23:24:03,167 - root - INFO - Finished training.
+2021-05-07 23:24:04,197 - root - INFO - Starting testing...
+2021-05-07 23:24:06,978 - root - INFO - Test AUC: 79.53%
+2021-05-07 23:24:06,978 - root - INFO - Test Time: 2.734s
+2021-05-07 23:24:06,978 - root - INFO - Finished testing.
+2021-05-07 23:24:07,385 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:24:07,385 - root - INFO - Data path is ../data.
+2021-05-07 23:24:07,385 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:24:07,385 - root - INFO - Dataset: cifar10
+2021-05-07 23:24:07,385 - root - INFO - Normal class: 1
+2021-05-07 23:24:07,385 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:24:07,385 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:24:07,385 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:24:07,385 - root - INFO - Known anomaly class: 0
+2021-05-07 23:24:07,385 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:24:07,385 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:24:07,385 - root - INFO - Hybrid model: False
+2021-05-07 23:24:07,385 - root - INFO - Set seed to 3.
+2021-05-07 23:24:07,385 - root - INFO - Computation device: cuda
+2021-05-07 23:24:07,385 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:24:09,416 - root - INFO - Starting training...
+2021-05-07 23:24:24,542 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 12.172s | Val AUC: 57.97 |
+2021-05-07 23:24:38,058 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 11.438s | Val AUC: 64.07 |
+2021-05-07 23:24:50,652 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 10.578s | Val AUC: 66.34 |
+2021-05-07 23:24:57,980 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 5.344s | Val AUC: 64.98 |
+2021-05-07 23:25:05,386 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.391s | Val AUC: 59.50 |
+2021-05-07 23:25:13,324 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.360s | Val AUC: 53.95 |
+2021-05-07 23:25:22,043 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.438s | Val AUC: 49.94 |
+2021-05-07 23:25:30,512 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.172s | Val AUC: 50.33 |
+2021-05-07 23:25:38,934 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.141s | Val AUC: 50.00 |
+2021-05-07 23:25:47,340 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.126s | Val AUC: 50.00 |
+2021-05-07 23:25:47,356 - root - INFO - Best Model: | Gamma: 0.03125000 | AUC: 66.34
+2021-05-07 23:25:47,356 - root - INFO - Training Time: 10.578s
+2021-05-07 23:25:47,356 - root - INFO - Finished training.
+2021-05-07 23:25:48,387 - root - INFO - Starting testing...
+2021-05-07 23:25:51,777 - root - INFO - Test AUC: 65.37%
+2021-05-07 23:25:51,777 - root - INFO - Test Time: 3.390s
+2021-05-07 23:25:51,777 - root - INFO - Finished testing.
+2021-05-07 23:25:52,184 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:25:52,184 - root - INFO - Data path is ../data.
+2021-05-07 23:25:52,184 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:25:52,184 - root - INFO - Dataset: cifar10
+2021-05-07 23:25:52,184 - root - INFO - Normal class: 1
+2021-05-07 23:25:52,184 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:25:52,184 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:25:52,184 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:25:52,184 - root - INFO - Known anomaly class: 4
+2021-05-07 23:25:52,184 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:25:52,184 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:25:52,184 - root - INFO - Hybrid model: False
+2021-05-07 23:25:52,184 - root - INFO - Set seed to 4.
+2021-05-07 23:25:52,184 - root - INFO - Computation device: cuda
+2021-05-07 23:25:52,184 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:25:54,226 - root - INFO - Starting training...
+2021-05-07 23:26:09,638 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 12.282s | Val AUC: 68.12 |
+2021-05-07 23:26:23,200 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 11.516s | Val AUC: 77.22 |
+2021-05-07 23:26:35,825 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 10.630s | Val AUC: 77.20 |
+2021-05-07 23:26:45,169 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 7.344s | Val AUC: 67.90 |
+2021-05-07 23:26:52,654 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.359s | Val AUC: 64.37 |
+2021-05-07 23:27:00,607 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.364s | Val AUC: 64.50 |
+2021-05-07 23:27:09,248 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.453s | Val AUC: 56.40 |
+2021-05-07 23:27:17,732 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.219s | Val AUC: 51.71 |
+2021-05-07 23:27:26,061 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.126s | Val AUC: 50.55 |
+2021-05-07 23:27:34,468 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.157s | Val AUC: 50.00 |
+2021-05-07 23:27:34,499 - root - INFO - Best Model: | Gamma: 0.01562500 | AUC: 77.22
+2021-05-07 23:27:34,499 - root - INFO - Training Time: 11.516s
+2021-05-07 23:27:34,499 - root - INFO - Finished training.
+2021-05-07 23:27:35,545 - root - INFO - Starting testing...
+2021-05-07 23:27:38,904 - root - INFO - Test AUC: 75.15%
+2021-05-07 23:27:38,904 - root - INFO - Test Time: 3.343s
+2021-05-07 23:27:38,904 - root - INFO - Finished testing.
+2021-05-07 23:27:39,327 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:27:39,327 - root - INFO - Data path is ../data.
+2021-05-07 23:27:39,327 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:27:39,327 - root - INFO - Dataset: cifar10
+2021-05-07 23:27:39,327 - root - INFO - Normal class: 2
+2021-05-07 23:27:39,327 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:27:39,327 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:27:39,327 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:27:39,327 - root - INFO - Known anomaly class: 4
+2021-05-07 23:27:39,327 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:27:39,327 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:27:39,327 - root - INFO - Hybrid model: False
+2021-05-07 23:27:39,327 - root - INFO - Set seed to 5.
+2021-05-07 23:27:39,327 - root - INFO - Computation device: cuda
+2021-05-07 23:27:39,327 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:27:41,374 - root - INFO - Starting training...
+2021-05-07 23:27:55,124 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 10.860s | Val AUC: 67.32 |
+2021-05-07 23:28:08,124 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 11.032s | Val AUC: 70.87 |
+2021-05-07 23:28:20,703 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 10.657s | Val AUC: 72.21 |
+2021-05-07 23:28:32,375 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 9.766s | Val AUC: 72.44 |
+2021-05-07 23:28:39,797 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.344s | Val AUC: 72.83 |
+2021-05-07 23:28:47,422 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.360s | Val AUC: 71.02 |
+2021-05-07 23:28:55,766 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.329s | Val AUC: 71.43 |
+2021-05-07 23:29:04,250 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.345s | Val AUC: 61.05 |
+2021-05-07 23:29:13,657 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.875s | Val AUC: 51.44 |
+2021-05-07 23:29:22,094 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.125s | Val AUC: 50.00 |
+2021-05-07 23:29:22,126 - root - INFO - Best Model: | Gamma: 0.12500000 | AUC: 72.83
+2021-05-07 23:29:22,126 - root - INFO - Training Time: 5.344s
+2021-05-07 23:29:22,126 - root - INFO - Finished training.
+2021-05-07 23:29:23,141 - root - INFO - Starting testing...
+2021-05-07 23:29:26,685 - root - INFO - Test AUC: 67.72%
+2021-05-07 23:29:26,685 - root - INFO - Test Time: 3.528s
+2021-05-07 23:29:26,685 - root - INFO - Finished testing.
+2021-05-07 23:29:27,110 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:29:27,110 - root - INFO - Data path is ../data.
+2021-05-07 23:29:27,110 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:29:27,110 - root - INFO - Dataset: cifar10
+2021-05-07 23:29:27,110 - root - INFO - Normal class: 2
+2021-05-07 23:29:27,110 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:29:27,110 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:29:27,110 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:29:27,110 - root - INFO - Known anomaly class: 5
+2021-05-07 23:29:27,110 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:29:27,110 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:29:27,110 - root - INFO - Hybrid model: False
+2021-05-07 23:29:27,110 - root - INFO - Set seed to 6.
+2021-05-07 23:29:27,110 - root - INFO - Computation device: cuda
+2021-05-07 23:29:27,110 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:29:29,157 - root - INFO - Starting training...
+2021-05-07 23:29:43,985 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 11.892s | Val AUC: 67.20 |
+2021-05-07 23:29:57,048 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 11.079s | Val AUC: 68.86 |
+2021-05-07 23:30:10,048 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 11.032s | Val AUC: 68.91 |
+2021-05-07 23:30:22,221 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 10.235s | Val AUC: 69.20 |
+2021-05-07 23:30:29,689 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.360s | Val AUC: 68.88 |
+2021-05-07 23:30:37,455 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.422s | Val AUC: 69.25 |
+2021-05-07 23:30:45,924 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.454s | Val AUC: 65.63 |
+2021-05-07 23:30:54,596 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.438s | Val AUC: 53.63 |
+2021-05-07 23:31:03,190 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.282s | Val AUC: 50.39 |
+2021-05-07 23:31:11,675 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.203s | Val AUC: 50.00 |
+2021-05-07 23:31:11,706 - root - INFO - Best Model: | Gamma: 0.25000000 | AUC: 69.25
+2021-05-07 23:31:11,706 - root - INFO - Training Time: 5.422s
+2021-05-07 23:31:11,706 - root - INFO - Finished training.
+2021-05-07 23:31:12,721 - root - INFO - Starting testing...
+2021-05-07 23:31:16,831 - root - INFO - Test AUC: 69.03%
+2021-05-07 23:31:16,831 - root - INFO - Test Time: 4.094s
+2021-05-07 23:31:16,831 - root - INFO - Finished testing.
+2021-05-07 23:31:17,237 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:31:17,237 - root - INFO - Data path is ../data.
+2021-05-07 23:31:17,237 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:31:17,237 - root - INFO - Dataset: cifar10
+2021-05-07 23:31:17,237 - root - INFO - Normal class: 3
+2021-05-07 23:31:17,237 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:31:17,237 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:31:17,237 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:31:17,237 - root - INFO - Known anomaly class: 1
+2021-05-07 23:31:17,237 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:31:17,237 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:31:17,237 - root - INFO - Hybrid model: False
+2021-05-07 23:31:17,237 - root - INFO - Set seed to 7.
+2021-05-07 23:31:17,237 - root - INFO - Computation device: cuda
+2021-05-07 23:31:17,237 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:31:19,268 - root - INFO - Starting training...
+2021-05-07 23:31:32,925 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 10.688s | Val AUC: 57.29 |
+2021-05-07 23:31:45,550 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 10.719s | Val AUC: 56.12 |
+2021-05-07 23:31:57,972 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 10.422s | Val AUC: 53.59 |
+2021-05-07 23:32:08,801 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 8.844s | Val AUC: 49.01 |
+2021-05-07 23:32:16,302 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.406s | Val AUC: 47.80 |
+2021-05-07 23:32:24,192 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.344s | Val AUC: 47.24 |
+2021-05-07 23:32:32,660 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.344s | Val AUC: 47.21 |
+2021-05-07 23:32:41,302 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.344s | Val AUC: 50.76 |
+2021-05-07 23:32:49,645 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.095s | Val AUC: 49.94 |
+2021-05-07 23:32:58,005 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.142s | Val AUC: 50.00 |
+2021-05-07 23:32:58,021 - root - INFO - Best Model: | Gamma: 0.00781250 | AUC: 57.29
+2021-05-07 23:32:58,021 - root - INFO - Training Time: 10.688s
+2021-05-07 23:32:58,021 - root - INFO - Finished training.
+2021-05-07 23:32:59,068 - root - INFO - Starting testing...
+2021-05-07 23:33:02,020 - root - INFO - Test AUC: 61.23%
+2021-05-07 23:33:02,020 - root - INFO - Test Time: 2.890s
+2021-05-07 23:33:02,020 - root - INFO - Finished testing.
+2021-05-07 23:33:02,411 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:33:02,411 - root - INFO - Data path is ../data.
+2021-05-07 23:33:02,411 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:33:02,411 - root - INFO - Dataset: cifar10
+2021-05-07 23:33:02,411 - root - INFO - Normal class: 3
+2021-05-07 23:33:02,411 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:33:02,411 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:33:02,411 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:33:02,411 - root - INFO - Known anomaly class: 6
+2021-05-07 23:33:02,411 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:33:02,411 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:33:02,411 - root - INFO - Hybrid model: False
+2021-05-07 23:33:02,411 - root - INFO - Set seed to 8.
+2021-05-07 23:33:02,411 - root - INFO - Computation device: cuda
+2021-05-07 23:33:02,411 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:33:04,474 - root - INFO - Starting training...
+2021-05-07 23:33:19,021 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 11.423s | Val AUC: 55.43 |
+2021-05-07 23:33:31,927 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 10.954s | Val AUC: 57.31 |
+2021-05-07 23:33:43,646 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 9.719s | Val AUC: 59.04 |
+2021-05-07 23:33:50,990 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 5.360s | Val AUC: 58.93 |
+2021-05-07 23:33:58,381 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.360s | Val AUC: 57.69 |
+2021-05-07 23:34:06,272 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.360s | Val AUC: 55.83 |
+2021-05-07 23:34:14,758 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.376s | Val AUC: 50.22 |
+2021-05-07 23:34:23,225 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.251s | Val AUC: 49.95 |
+2021-05-07 23:34:31,631 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.127s | Val AUC: 50.00 |
+2021-05-07 23:34:40,132 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.136s | Val AUC: 50.00 |
+2021-05-07 23:34:40,148 - root - INFO - Best Model: | Gamma: 0.03125000 | AUC: 59.04
+2021-05-07 23:34:40,148 - root - INFO - Training Time: 9.719s
+2021-05-07 23:34:40,148 - root - INFO - Finished training.
+2021-05-07 23:34:41,163 - root - INFO - Starting testing...
+2021-05-07 23:34:44,600 - root - INFO - Test AUC: 56.83%
+2021-05-07 23:34:44,600 - root - INFO - Test Time: 3.421s
+2021-05-07 23:34:44,600 - root - INFO - Finished testing.
+2021-05-07 23:34:45,022 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:34:45,022 - root - INFO - Data path is ../data.
+2021-05-07 23:34:45,022 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:34:45,022 - root - INFO - Dataset: cifar10
+2021-05-07 23:34:45,022 - root - INFO - Normal class: 4
+2021-05-07 23:34:45,022 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:34:45,022 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:34:45,022 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:34:45,022 - root - INFO - Known anomaly class: 3
+2021-05-07 23:34:45,022 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:34:45,022 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:34:45,022 - root - INFO - Hybrid model: False
+2021-05-07 23:34:45,022 - root - INFO - Set seed to 9.
+2021-05-07 23:34:45,022 - root - INFO - Computation device: cuda
+2021-05-07 23:34:45,022 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:34:47,069 - root - INFO - Starting training...
+2021-05-07 23:35:01,476 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 11.517s | Val AUC: 73.14 |
+2021-05-07 23:35:14,664 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 11.297s | Val AUC: 75.50 |
+2021-05-07 23:35:27,398 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 10.688s | Val AUC: 76.35 |
+2021-05-07 23:35:39,586 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 10.172s | Val AUC: 76.30 |
+2021-05-07 23:35:50,524 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 8.876s | Val AUC: 75.32 |
+2021-05-07 23:35:58,180 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.360s | Val AUC: 75.42 |
+2021-05-07 23:36:06,524 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.360s | Val AUC: 71.42 |
+2021-05-07 23:36:15,228 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.438s | Val AUC: 58.32 |
+2021-05-07 23:36:23,727 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.198s | Val AUC: 51.89 |
+2021-05-07 23:36:32,071 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.125s | Val AUC: 49.94 |
+2021-05-07 23:36:32,103 - root - INFO - Best Model: | Gamma: 0.03125000 | AUC: 76.35
+2021-05-07 23:36:32,103 - root - INFO - Training Time: 10.688s
+2021-05-07 23:36:32,103 - root - INFO - Finished training.
+2021-05-07 23:36:33,134 - root - INFO - Starting testing...
+2021-05-07 23:36:36,477 - root - INFO - Test AUC: 76.81%
+2021-05-07 23:36:36,477 - root - INFO - Test Time: 3.343s
+2021-05-07 23:36:36,477 - root - INFO - Finished testing.
+2021-05-07 23:36:36,962 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:36:36,962 - root - INFO - Data path is ../data.
+2021-05-07 23:36:36,962 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:36:36,962 - root - INFO - Dataset: cifar10
+2021-05-07 23:36:36,962 - root - INFO - Normal class: 4
+2021-05-07 23:36:36,962 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:36:36,962 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:36:36,962 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:36:36,962 - root - INFO - Known anomaly class: 8
+2021-05-07 23:36:36,962 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:36:36,962 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:36:36,962 - root - INFO - Hybrid model: False
+2021-05-07 23:36:36,962 - root - INFO - Set seed to 10.
+2021-05-07 23:36:36,962 - root - INFO - Computation device: cuda
+2021-05-07 23:36:36,962 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:36:38,993 - root - INFO - Starting training...
+2021-05-07 23:36:54,041 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 12.250s | Val AUC: 78.62 |
+2021-05-07 23:37:07,759 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 11.813s | Val AUC: 79.47 |
+2021-05-07 23:37:20,916 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 11.079s | Val AUC: 79.95 |
+2021-05-07 23:37:33,026 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 10.125s | Val AUC: 79.60 |
+2021-05-07 23:37:43,948 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 8.828s | Val AUC: 80.50 |
+2021-05-07 23:37:51,604 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.344s | Val AUC: 81.11 |
+2021-05-07 23:37:59,901 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.376s | Val AUC: 76.80 |
+2021-05-07 23:38:08,417 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.328s | Val AUC: 61.26 |
+2021-05-07 23:38:16,964 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.250s | Val AUC: 51.05 |
+2021-05-07 23:38:25,355 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.126s | Val AUC: 50.00 |
+2021-05-07 23:38:25,386 - root - INFO - Best Model: | Gamma: 0.25000000 | AUC: 81.11
+2021-05-07 23:38:25,386 - root - INFO - Training Time: 5.344s
+2021-05-07 23:38:25,386 - root - INFO - Finished training.
+2021-05-07 23:38:26,402 - root - INFO - Starting testing...
+2021-05-07 23:38:30,479 - root - INFO - Test AUC: 78.15%
+2021-05-07 23:38:30,479 - root - INFO - Test Time: 4.062s
+2021-05-07 23:38:30,479 - root - INFO - Finished testing.
+2021-05-07 23:38:30,886 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:38:30,886 - root - INFO - Data path is ../data.
+2021-05-07 23:38:30,886 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:38:30,886 - root - INFO - Dataset: cifar10
+2021-05-07 23:38:30,886 - root - INFO - Normal class: 5
+2021-05-07 23:38:30,886 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:38:30,886 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:38:30,886 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:38:30,886 - root - INFO - Known anomaly class: 0
+2021-05-07 23:38:30,886 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:38:30,886 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:38:30,886 - root - INFO - Hybrid model: False
+2021-05-07 23:38:30,886 - root - INFO - Set seed to 11.
+2021-05-07 23:38:30,886 - root - INFO - Computation device: cuda
+2021-05-07 23:38:30,886 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:38:32,917 - root - INFO - Starting training...
+2021-05-07 23:38:47,605 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 11.891s | Val AUC: 67.32 |
+2021-05-07 23:39:00,527 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 11.062s | Val AUC: 70.09 |
+2021-05-07 23:39:13,231 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 10.641s | Val AUC: 68.72 |
+2021-05-07 23:39:21,028 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 5.844s | Val AUC: 66.35 |
+2021-05-07 23:39:28,387 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.376s | Val AUC: 64.81 |
+2021-05-07 23:39:36,231 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.360s | Val AUC: 61.37 |
+2021-05-07 23:39:44,653 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.345s | Val AUC: 54.11 |
+2021-05-07 23:39:53,309 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.391s | Val AUC: 50.83 |
+2021-05-07 23:40:01,778 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.124s | Val AUC: 50.61 |
+2021-05-07 23:40:10,154 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.109s | Val AUC: 50.00 |
+2021-05-07 23:40:10,185 - root - INFO - Best Model: | Gamma: 0.01562500 | AUC: 70.09
+2021-05-07 23:40:10,185 - root - INFO - Training Time: 11.062s
+2021-05-07 23:40:10,185 - root - INFO - Finished training.
+2021-05-07 23:40:11,216 - root - INFO - Starting testing...
+2021-05-07 23:40:14,012 - root - INFO - Test AUC: 69.45%
+2021-05-07 23:40:14,012 - root - INFO - Test Time: 2.797s
+2021-05-07 23:40:14,012 - root - INFO - Finished testing.
+2021-05-07 23:40:14,419 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:40:14,419 - root - INFO - Data path is ../data.
+2021-05-07 23:40:14,419 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:40:14,419 - root - INFO - Dataset: cifar10
+2021-05-07 23:40:14,419 - root - INFO - Normal class: 5
+2021-05-07 23:40:14,419 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:40:14,419 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:40:14,419 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:40:14,419 - root - INFO - Known anomaly class: 8
+2021-05-07 23:40:14,419 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:40:14,419 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:40:14,419 - root - INFO - Hybrid model: False
+2021-05-07 23:40:14,419 - root - INFO - Set seed to 12.
+2021-05-07 23:40:14,419 - root - INFO - Computation device: cuda
+2021-05-07 23:40:14,419 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:40:16,466 - root - INFO - Starting training...
+2021-05-07 23:40:30,779 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 11.491s | Val AUC: 67.08 |
+2021-05-07 23:40:43,810 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 11.032s | Val AUC: 67.11 |
+2021-05-07 23:40:56,342 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 10.595s | Val AUC: 64.77 |
+2021-05-07 23:41:07,670 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 9.344s | Val AUC: 62.57 |
+2021-05-07 23:41:15,342 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.579s | Val AUC: 62.62 |
+2021-05-07 23:41:23,264 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.391s | Val AUC: 61.03 |
+2021-05-07 23:41:31,717 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.344s | Val AUC: 52.55 |
+2021-05-07 23:41:40,296 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.345s | Val AUC: 49.56 |
+2021-05-07 23:41:48,671 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.125s | Val AUC: 50.00 |
+2021-05-07 23:41:57,140 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.157s | Val AUC: 50.00 |
+2021-05-07 23:41:57,156 - root - INFO - Best Model: | Gamma: 0.01562500 | AUC: 67.11
+2021-05-07 23:41:57,156 - root - INFO - Training Time: 11.032s
+2021-05-07 23:41:57,156 - root - INFO - Finished training.
+2021-05-07 23:41:58,202 - root - INFO - Starting testing...
+2021-05-07 23:42:01,656 - root - INFO - Test AUC: 65.29%
+2021-05-07 23:42:01,656 - root - INFO - Test Time: 3.438s
+2021-05-07 23:42:01,656 - root - INFO - Finished testing.
+2021-05-07 23:42:02,093 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:42:02,093 - root - INFO - Data path is ../data.
+2021-05-07 23:42:02,093 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:42:02,093 - root - INFO - Dataset: cifar10
+2021-05-07 23:42:02,093 - root - INFO - Normal class: 6
+2021-05-07 23:42:02,093 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:42:02,093 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:42:02,093 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:42:02,093 - root - INFO - Known anomaly class: 8
+2021-05-07 23:42:02,093 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:42:02,093 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:42:02,093 - root - INFO - Hybrid model: False
+2021-05-07 23:42:02,093 - root - INFO - Set seed to 13.
+2021-05-07 23:42:02,093 - root - INFO - Computation device: cuda
+2021-05-07 23:42:02,109 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:42:04,140 - root - INFO - Starting training...
+2021-05-07 23:42:19,046 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 12.064s | Val AUC: 77.27 |
+2021-05-07 23:42:31,922 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 11.032s | Val AUC: 78.57 |
+2021-05-07 23:42:44,516 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 10.641s | Val AUC: 78.94 |
+2021-05-07 23:42:56,328 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 9.782s | Val AUC: 78.24 |
+2021-05-07 23:43:03,672 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.375s | Val AUC: 77.01 |
+2021-05-07 23:43:11,438 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.422s | Val AUC: 76.03 |
+2021-05-07 23:43:19,876 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.391s | Val AUC: 66.60 |
+2021-05-07 23:43:28,594 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.422s | Val AUC: 52.77 |
+2021-05-07 23:43:37,017 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.204s | Val AUC: 50.50 |
+2021-05-07 23:43:45,376 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.141s | Val AUC: 50.00 |
+2021-05-07 23:43:45,407 - root - INFO - Best Model: | Gamma: 0.03125000 | AUC: 78.94
+2021-05-07 23:43:45,407 - root - INFO - Training Time: 10.641s
+2021-05-07 23:43:45,407 - root - INFO - Finished training.
+2021-05-07 23:43:46,455 - root - INFO - Starting testing...
+2021-05-07 23:43:49,860 - root - INFO - Test AUC: 79.66%
+2021-05-07 23:43:49,860 - root - INFO - Test Time: 3.404s
+2021-05-07 23:43:49,860 - root - INFO - Finished testing.
+2021-05-07 23:43:50,267 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:43:50,267 - root - INFO - Data path is ../data.
+2021-05-07 23:43:50,267 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:43:50,267 - root - INFO - Dataset: cifar10
+2021-05-07 23:43:50,267 - root - INFO - Normal class: 6
+2021-05-07 23:43:50,267 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:43:50,267 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:43:50,267 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:43:50,267 - root - INFO - Known anomaly class: 4
+2021-05-07 23:43:50,283 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:43:50,283 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:43:50,283 - root - INFO - Hybrid model: False
+2021-05-07 23:43:50,283 - root - INFO - Set seed to 14.
+2021-05-07 23:43:50,283 - root - INFO - Computation device: cuda
+2021-05-07 23:43:50,283 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:43:52,314 - root - INFO - Starting training...
+2021-05-07 23:44:05,970 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 10.730s | Val AUC: 71.50 |
+2021-05-07 23:44:19,049 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 11.125s | Val AUC: 78.43 |
+2021-05-07 23:44:31,783 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 10.704s | Val AUC: 80.66 |
+2021-05-07 23:44:43,487 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 9.751s | Val AUC: 78.27 |
+2021-05-07 23:44:50,815 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.328s | Val AUC: 74.02 |
+2021-05-07 23:44:58,675 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.485s | Val AUC: 69.42 |
+2021-05-07 23:45:07,050 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.375s | Val AUC: 63.80 |
+2021-05-07 23:45:15,581 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.345s | Val AUC: 51.29 |
+2021-05-07 23:45:23,961 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.156s | Val AUC: 50.55 |
+2021-05-07 23:45:32,363 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.126s | Val AUC: 50.00 |
+2021-05-07 23:45:32,379 - root - INFO - Best Model: | Gamma: 0.03125000 | AUC: 80.66
+2021-05-07 23:45:32,379 - root - INFO - Training Time: 10.704s
+2021-05-07 23:45:32,379 - root - INFO - Finished training.
+2021-05-07 23:45:33,394 - root - INFO - Starting testing...
+2021-05-07 23:45:36,909 - root - INFO - Test AUC: 78.83%
+2021-05-07 23:45:36,909 - root - INFO - Test Time: 3.489s
+2021-05-07 23:45:36,910 - root - INFO - Finished testing.
+2021-05-07 23:45:37,300 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:45:37,300 - root - INFO - Data path is ../data.
+2021-05-07 23:45:37,300 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:45:37,300 - root - INFO - Dataset: cifar10
+2021-05-07 23:45:37,300 - root - INFO - Normal class: 7
+2021-05-07 23:45:37,300 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:45:37,300 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:45:37,300 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:45:37,300 - root - INFO - Known anomaly class: 1
+2021-05-07 23:45:37,300 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:45:37,300 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:45:37,300 - root - INFO - Hybrid model: False
+2021-05-07 23:45:37,300 - root - INFO - Set seed to 15.
+2021-05-07 23:45:37,300 - root - INFO - Computation device: cuda
+2021-05-07 23:45:37,300 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:45:39,378 - root - INFO - Starting training...
+2021-05-07 23:45:53,504 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 11.329s | Val AUC: 59.80 |
+2021-05-07 23:46:05,894 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 10.595s | Val AUC: 60.00 |
+2021-05-07 23:46:18,316 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 10.501s | Val AUC: 57.00 |
+2021-05-07 23:46:25,676 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 5.360s | Val AUC: 51.49 |
+2021-05-07 23:46:33,114 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.407s | Val AUC: 50.04 |
+2021-05-07 23:46:40,958 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.376s | Val AUC: 50.04 |
+2021-05-07 23:46:49,442 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.360s | Val AUC: 46.99 |
+2021-05-07 23:46:58,051 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.376s | Val AUC: 49.67 |
+2021-05-07 23:47:06,630 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.188s | Val AUC: 50.00 |
+2021-05-07 23:47:15,021 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.188s | Val AUC: 50.00 |
+2021-05-07 23:47:15,037 - root - INFO - Best Model: | Gamma: 0.01562500 | AUC: 60.00
+2021-05-07 23:47:15,037 - root - INFO - Training Time: 10.595s
+2021-05-07 23:47:15,037 - root - INFO - Finished training.
+2021-05-07 23:47:16,083 - root - INFO - Starting testing...
+2021-05-07 23:47:18,524 - root - INFO - Test AUC: 61.52%
+2021-05-07 23:47:18,535 - root - INFO - Test Time: 2.363s
+2021-05-07 23:47:18,535 - root - INFO - Finished testing.
+2021-05-07 23:47:18,958 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:47:18,958 - root - INFO - Data path is ../data.
+2021-05-07 23:47:18,958 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:47:18,958 - root - INFO - Dataset: cifar10
+2021-05-07 23:47:18,958 - root - INFO - Normal class: 7
+2021-05-07 23:47:18,958 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:47:18,958 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:47:18,958 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:47:18,958 - root - INFO - Known anomaly class: 3
+2021-05-07 23:47:18,958 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:47:18,958 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:47:18,958 - root - INFO - Hybrid model: False
+2021-05-07 23:47:18,958 - root - INFO - Set seed to 16.
+2021-05-07 23:47:18,958 - root - INFO - Computation device: cuda
+2021-05-07 23:47:18,958 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:47:21,005 - root - INFO - Starting training...
+2021-05-07 23:47:35,099 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 11.204s | Val AUC: 61.97 |
+2021-05-07 23:47:48,099 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 11.094s | Val AUC: 64.18 |
+2021-05-07 23:48:01,006 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 10.891s | Val AUC: 61.48 |
+2021-05-07 23:48:08,350 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 5.388s | Val AUC: 58.57 |
+2021-05-07 23:48:15,772 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.375s | Val AUC: 56.20 |
+2021-05-07 23:48:23,647 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.437s | Val AUC: 53.47 |
+2021-05-07 23:48:32,225 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.376s | Val AUC: 52.33 |
+2021-05-07 23:48:40,741 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.266s | Val AUC: 51.73 |
+2021-05-07 23:48:49,163 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.141s | Val AUC: 50.50 |
+2021-05-07 23:48:57,569 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.126s | Val AUC: 50.00 |
+2021-05-07 23:48:57,585 - root - INFO - Best Model: | Gamma: 0.01562500 | AUC: 64.18
+2021-05-07 23:48:57,585 - root - INFO - Training Time: 11.094s
+2021-05-07 23:48:57,585 - root - INFO - Finished training.
+2021-05-07 23:48:58,616 - root - INFO - Starting testing...
+2021-05-07 23:49:02,085 - root - INFO - Test AUC: 65.31%
+2021-05-07 23:49:02,086 - root - INFO - Test Time: 3.454s
+2021-05-07 23:49:02,086 - root - INFO - Finished testing.
+2021-05-07 23:49:02,522 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:49:02,522 - root - INFO - Data path is ../data.
+2021-05-07 23:49:02,522 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:49:02,522 - root - INFO - Dataset: cifar10
+2021-05-07 23:49:02,522 - root - INFO - Normal class: 8
+2021-05-07 23:49:02,522 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:49:02,522 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:49:02,522 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:49:02,522 - root - INFO - Known anomaly class: 5
+2021-05-07 23:49:02,522 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:49:02,522 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:49:02,522 - root - INFO - Hybrid model: False
+2021-05-07 23:49:02,522 - root - INFO - Set seed to 17.
+2021-05-07 23:49:02,522 - root - INFO - Computation device: cuda
+2021-05-07 23:49:02,522 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:49:04,616 - root - INFO - Starting training...
+2021-05-07 23:49:20,007 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 12.376s | Val AUC: 76.27 |
+2021-05-07 23:49:32,789 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 10.985s | Val AUC: 78.41 |
+2021-05-07 23:49:44,883 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 10.079s | Val AUC: 78.51 |
+2021-05-07 23:49:56,195 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 9.360s | Val AUC: 77.57 |
+2021-05-07 23:50:03,633 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.391s | Val AUC: 73.26 |
+2021-05-07 23:50:11,524 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.391s | Val AUC: 70.58 |
+2021-05-07 23:50:19,961 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.375s | Val AUC: 64.18 |
+2021-05-07 23:50:28,712 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.438s | Val AUC: 51.94 |
+2021-05-07 23:50:37,087 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.172s | Val AUC: 50.50 |
+2021-05-07 23:50:45,540 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.173s | Val AUC: 50.00 |
+2021-05-07 23:50:45,571 - root - INFO - Best Model: | Gamma: 0.03125000 | AUC: 78.51
+2021-05-07 23:50:45,571 - root - INFO - Training Time: 10.079s
+2021-05-07 23:50:45,572 - root - INFO - Finished training.
+2021-05-07 23:50:46,602 - root - INFO - Starting testing...
+2021-05-07 23:50:49,868 - root - INFO - Test AUC: 82.27%
+2021-05-07 23:50:49,868 - root - INFO - Test Time: 3.265s
+2021-05-07 23:50:49,868 - root - INFO - Finished testing.
+2021-05-07 23:50:50,321 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:50:50,321 - root - INFO - Data path is ../data.
+2021-05-07 23:50:50,321 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:50:50,321 - root - INFO - Dataset: cifar10
+2021-05-07 23:50:50,321 - root - INFO - Normal class: 8
+2021-05-07 23:50:50,321 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:50:50,321 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:50:50,321 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:50:50,321 - root - INFO - Known anomaly class: 9
+2021-05-07 23:50:50,321 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:50:50,321 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:50:50,321 - root - INFO - Hybrid model: False
+2021-05-07 23:50:50,321 - root - INFO - Set seed to 18.
+2021-05-07 23:50:50,321 - root - INFO - Computation device: cuda
+2021-05-07 23:50:50,337 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:50:52,368 - root - INFO - Starting training...
+2021-05-07 23:51:06,666 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 11.289s | Val AUC: 70.33 |
+2021-05-07 23:51:19,650 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 11.141s | Val AUC: 72.53 |
+2021-05-07 23:51:31,978 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 10.407s | Val AUC: 71.41 |
+2021-05-07 23:51:43,354 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 9.297s | Val AUC: 70.12 |
+2021-05-07 23:51:50,807 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.391s | Val AUC: 68.10 |
+2021-05-07 23:51:58,635 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.360s | Val AUC: 67.05 |
+2021-05-07 23:52:07,088 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.391s | Val AUC: 59.20 |
+2021-05-07 23:52:15,651 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.344s | Val AUC: 53.17 |
+2021-05-07 23:52:24,176 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.265s | Val AUC: 50.84 |
+2021-05-07 23:52:32,495 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.172s | Val AUC: 50.00 |
+2021-05-07 23:52:32,511 - root - INFO - Best Model: | Gamma: 0.01562500 | AUC: 72.53
+2021-05-07 23:52:32,511 - root - INFO - Training Time: 11.141s
+2021-05-07 23:52:32,511 - root - INFO - Finished training.
+2021-05-07 23:52:33,542 - root - INFO - Starting testing...
+2021-05-07 23:52:36,276 - root - INFO - Test AUC: 71.43%
+2021-05-07 23:52:36,276 - root - INFO - Test Time: 2.719s
+2021-05-07 23:52:36,276 - root - INFO - Finished testing.
+2021-05-07 23:52:36,667 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:52:36,667 - root - INFO - Data path is ../data.
+2021-05-07 23:52:36,667 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:52:36,667 - root - INFO - Dataset: cifar10
+2021-05-07 23:52:36,667 - root - INFO - Normal class: 9
+2021-05-07 23:52:36,667 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:52:36,667 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:52:36,667 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:52:36,667 - root - INFO - Known anomaly class: 2
+2021-05-07 23:52:36,667 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:52:36,667 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:52:36,667 - root - INFO - Hybrid model: False
+2021-05-07 23:52:36,667 - root - INFO - Set seed to 19.
+2021-05-07 23:52:36,667 - root - INFO - Computation device: cuda
+2021-05-07 23:52:36,667 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:52:38,698 - root - INFO - Starting training...
+2021-05-07 23:52:52,636 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 11.173s | Val AUC: 67.20 |
+2021-05-07 23:53:05,714 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 11.038s | Val AUC: 73.77 |
+2021-05-07 23:53:17,902 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 10.188s | Val AUC: 77.63 |
+2021-05-07 23:53:26,605 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 6.719s | Val AUC: 76.13 |
+2021-05-07 23:53:33,996 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.375s | Val AUC: 71.40 |
+2021-05-07 23:53:41,855 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.375s | Val AUC: 65.17 |
+2021-05-07 23:53:50,402 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.345s | Val AUC: 56.82 |
+2021-05-07 23:53:58,871 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.188s | Val AUC: 51.81 |
+2021-05-07 23:54:07,262 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.141s | Val AUC: 50.00 |
+2021-05-07 23:54:15,653 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.201s | Val AUC: 50.00 |
+2021-05-07 23:54:15,669 - root - INFO - Best Model: | Gamma: 0.03125000 | AUC: 77.63
+2021-05-07 23:54:15,669 - root - INFO - Training Time: 10.188s
+2021-05-07 23:54:15,669 - root - INFO - Finished training.
+2021-05-07 23:54:16,715 - root - INFO - Starting testing...
+2021-05-07 23:54:20,246 - root - INFO - Test AUC: 80.47%
+2021-05-07 23:54:20,246 - root - INFO - Test Time: 3.531s
+2021-05-07 23:54:20,246 - root - INFO - Finished testing.
+2021-05-07 23:54:20,653 - root - INFO - Log file is ../log/ssad/cifar10_test_yl=0.1/log.txt.
+2021-05-07 23:54:20,653 - root - INFO - Data path is ../data.
+2021-05-07 23:54:20,653 - root - INFO - Export path is ../log/ssad/cifar10_test_yl=0.1.
+2021-05-07 23:54:20,653 - root - INFO - Dataset: cifar10
+2021-05-07 23:54:20,653 - root - INFO - Normal class: 9
+2021-05-07 23:54:20,653 - root - INFO - Ratio of labeled normal train samples: 0.00
+2021-05-07 23:54:20,653 - root - INFO - Ratio of labeled anomalous samples: 0.10
+2021-05-07 23:54:20,653 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2021-05-07 23:54:20,653 - root - INFO - Known anomaly class: 0
+2021-05-07 23:54:20,653 - root - INFO - SSAD kernel: rbf
+2021-05-07 23:54:20,653 - root - INFO - Kappa-paramerter: 1.00
+2021-05-07 23:54:20,653 - root - INFO - Hybrid model: False
+2021-05-07 23:54:20,653 - root - INFO - Set seed to 20.
+2021-05-07 23:54:20,653 - root - INFO - Computation device: cuda
+2021-05-07 23:54:20,653 - root - INFO - Number of dataloader workers: 0
+2021-05-07 23:54:22,715 - root - INFO - Starting training...
+2021-05-07 23:54:37,747 - root - INFO -   | Model 01/10 | Gamma: 0.00781250 | Train Time: 11.974s | Val AUC: 60.04 |
+2021-05-07 23:54:50,795 - root - INFO -   | Model 02/10 | Gamma: 0.01562500 | Train Time: 11.063s | Val AUC: 63.38 |
+2021-05-07 23:55:02,544 - root - INFO -   | Model 03/10 | Gamma: 0.03125000 | Train Time: 9.735s | Val AUC: 64.20 |
+2021-05-07 23:55:09,857 - root - INFO -   | Model 04/10 | Gamma: 0.06250000 | Train Time: 5.375s | Val AUC: 62.96 |
+2021-05-07 23:55:17,216 - root - INFO -   | Model 05/10 | Gamma: 0.12500000 | Train Time: 5.360s | Val AUC: 61.81 |
+2021-05-07 23:55:25,154 - root - INFO -   | Model 06/10 | Gamma: 0.25000000 | Train Time: 5.407s | Val AUC: 59.20 |
+2021-05-07 23:55:33,685 - root - INFO -   | Model 07/10 | Gamma: 0.50000000 | Train Time: 5.375s | Val AUC: 53.37 |
+2021-05-07 23:55:42,201 - root - INFO -   | Model 08/10 | Gamma: 1.00000000 | Train Time: 5.235s | Val AUC: 51.15 |
+2021-05-07 23:55:50,623 - root - INFO -   | Model 09/10 | Gamma: 2.00000000 | Train Time: 5.204s | Val AUC: 50.00 |
+2021-05-07 23:55:59,092 - root - INFO -   | Model 10/10 | Gamma: 4.00000000 | Train Time: 5.188s | Val AUC: 50.00 |
+2021-05-07 23:55:59,124 - root - INFO - Best Model: | Gamma: 0.03125000 | AUC: 64.20
+2021-05-07 23:55:59,124 - root - INFO - Training Time: 9.735s
+2021-05-07 23:55:59,124 - root - INFO - Finished training.
+2021-05-07 23:56:00,170 - root - INFO - Starting testing...
+2021-05-07 23:56:03,764 - root - INFO - Test AUC: 64.10%
+2021-05-07 23:56:03,764 - root - INFO - Test Time: 3.531s
+2021-05-07 23:56:03,764 - root - INFO - Finished testing.
